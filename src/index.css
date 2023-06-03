@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search-bar {
+  text-align: center;
+  width: 600px;
+  height: 40px;
+  border-radius: 4px 0px 0px 4px;
+  border-width: 1px 0px 1px 1px;
+}
+
+.title {
+  color: rgb(63, 63, 63);
+  text-shadow: 2px 2px 2px black;
+}
+
+.search-button {
+  border: 2px solid rgb(54, 56, 57);
+  height: 43px;
+  border-radius: 0px 4px 4px 0px;
+  border-width: 1px 1px 1px 0px;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15px;
+  /*border: 1px solid #657a7f;*/
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 4px 4px 10px rgb(204, 202, 202), -4px -4px 10px rgb(204, 202, 202);
+  flex-wrap: nowrap;
+  /*overflow-wrap: break-word;
+  align-content: stretch;
+  align-items: stretch;*/
+  background-color: rgb(255, 249, 242);;
+}
+
+.columns{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-between;
+  flex-basis: auto;
+  border: 1px solid #d3d7da;
+  border-width: 0px 0px 1px;
+  gap: 30px;
+  min-width: 0;
+
+}
+
+.columns:hover {
+  box-shadow: 4px 4px 10px rgb(204, 202, 202);
+}
+
+.columns > *{
+  display: flex;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: rgb(180, 124, 50);
+}
